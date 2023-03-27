@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--DON'T FORGET TO COMMENT YOUR CODE FOR FUTURE REFERENCE-->
+<head>
+    <link href="stylesheet.css" rel="stylesheet" >
+    <!--Linking style sheet to html-->
+    <!--don't forget to correctly match the file name of the other file,the stylesheet
+    within the href-->
+    <script defer src = "fixed.js"></script>
+    <!--this links the javascript script to the html
+       defer is a bool that waits until an external script
+        has parsed before executing
+        In this case it waits until the DOM parses
+    DOM or Document Object Model is sorta like a tree structure
+    that represents how the html or xml file is structured and its contents
+    like folders inside of folders but with nodes or leaves like a tree -->
+    <title> Secret Dragon Omega Tic-Tac-Toe</title>
+    <!--because this sounds cool-->
+</head>
+<H1> Behold! Tic-Tac-Toe SECRET DRAGON CONQUEST EDITION</H1>
+<h2> It's now X's Turn</h2>
+<!-- Did you know divs have different styles
+ We'll be using them to  make this board-->
+ <div class="flex-container flex-column">
+    <div class="flex-container flex-wrap" id="board">
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    </div>
+    <!--need board squares-->
+    <button id="reset-button">RESET</button>
+    <!--press the reset to reset-->
+ </div>
